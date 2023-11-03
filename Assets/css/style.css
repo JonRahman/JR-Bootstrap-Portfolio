@@ -1,0 +1,5 @@
+.card-body {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  height: 100vh;/* Additional styles for the card body if needed */
+}
