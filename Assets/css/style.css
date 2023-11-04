@@ -1,5 +1,14 @@
 .card-body {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  height: 100vh;/* Additional styles for the card body if needed */
+    display: flex;
+    justify-content: center;
+    color: #e8e0e0;
+    background-color: rgb(98, 98, 171);
+    font-weight: 300;
+    line-height: 113%;
+    letter-spacing: 2px;
+}
+
+  h2 {
+  font-size: x-large;
+  text-align: center;
 }
