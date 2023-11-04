@@ -13,6 +13,11 @@ h2 {
   text-align: center;
 }
 
+footer h3 {
+    font-size: x-large;
+    text-align: center; 
+}
+
 /* Container styles */
 .container {
     display: grid;
