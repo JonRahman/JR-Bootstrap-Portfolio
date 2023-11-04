@@ -11,6 +11,10 @@ https://github.com/JonRahman/JR-Bootstrap-Portfolio
 
 
 to do
--footer
--make socials into icons
--all links for navbar footer and images
+-all links for navbar and images
+    -links are not working. i managed to get the about me link to work but the rest of the buttons are not working
+
+
+-make cover image for prework smaller
+-centre and align galler images
+
