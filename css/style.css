@@ -9,7 +9,7 @@
     margin: 5px;
 }
 
-h2 {
+h2, h5 {
     font-size: x-large;
     text-align: center;
 }
@@ -20,3 +20,15 @@ footer h3 {
       margin-bottom: 20px;
       margin-top: 10px;
 }
+
+/* Image container styles */
+.card img {
+    padding: 15px;
+    background: #2c3e50;
+    width: 500px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+
