@@ -18,3 +18,8 @@ to do
 -make cover image for prework smaller
 -centre and align galler images
 
+
+
+
+done
+-nav bar and footer complete
