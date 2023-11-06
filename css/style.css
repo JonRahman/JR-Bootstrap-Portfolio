@@ -36,3 +36,7 @@ footer h3 {
     max-width: 200px; /* Set a maximum width to avoid excessive stretching on larger screens */
     margin: 10px auto; /* Center buttons vertically and add spacing between them */
 }
+
+#workbox, #skillsbox, #contactbox {
+    margin-top: 20px;
+}
