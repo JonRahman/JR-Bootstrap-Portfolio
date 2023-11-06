@@ -10,3 +10,6 @@ https://github.com/JonRahman/JR-Bootstrap-Portfolio
 to do
 -make all images go to a webpage
 -complete readme
+
+
+IMPORTANT: for some reason my bootstrap link is not updating - specially the dirnk image
