@@ -8,4 +8,5 @@ https://github.com/JonRahman/JR-Bootstrap-Portfolio
 
 
 to do
-make all images go to a webpage
+-make all images go to a webpage
+-complete readme
