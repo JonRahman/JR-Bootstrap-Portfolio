@@ -19,7 +19,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg mx-auto bg-body-tertiary">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="navbox">Janyalom Rahman</a>
+                    <a class="navbar-brand fw-bold" href="navbox">Janyalom Rahman</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -65,17 +65,17 @@
     <header>
         <div class="card">
             <div class="welcome-header">
-                <h1>Welcome to my portfolio</h1>
+                <h1 class="fw-bold">Welcome to my portfolio</h1>
             </div>
         </div>
     </header>
 
     <!-- hero scetion with jumbotron (about-me: picture/name/info) -->
     <!-- Jumbotron -->
-    <div class="jumbotron text-center">
-        <div class="container" id="aboutbox">
+    <div class="jumbotron text-center bg-body-tertiary">
+        <div class="container-fluid py-3 jumboCopy" id="aboutbox">
             <h2>About Me</h2>
-            <p class="lead">
+            <p class="lead col-md-12 fs-5">
                 My name is Janyalom Rahman. Friends and colleagues call me Jan/Jon/Alom - take your pick! I live in the
                 United Kingdom, London, Camden and I am 33 years old.
                 I currently work as a Success Manager at LaunchGood which involves account managment and support. I
@@ -84,15 +84,6 @@
                 myself on to a Front End Web Developer bootcamp.
                 Ready for new challenges and opportunities.</p>
             <img src="Images/me.jpg" alt="Picture of Janyalom Rahman" class="img-fluid rounded-circle" width="300">
-        </div>
-    </div>
-<!--delete this part?-->    <div class="p-5 mb-4 bg-body-tertiary rounded-3 rockBackground">
-        <div class="container-fluid py-5 jumboCopy">
-            <h1 class="display-5 fw-bold">It's Time to Rock</h1>
-            <p class="col-md-12 fs-4">Rock Nation brings you the most headbanging shows on the planet. Click below to
-                find tickets for
-                your favorite bands</p>
-            <button class="btn btn-primary btn-lg" type="button">Buy Tickets</button>
         </div>
     </div>
     <!-- End jumbotron -->
@@ -112,7 +103,8 @@
                 <div class="card">
                     <img src="Images/prework.png" class="mx-auto img-fluid" alt="Prework FrontEnd Developer image">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="https://jonrahman.github.io/Prework-study-guide/">Prework FrontEnd Developer</a></h5>
+                        <h3 class="card-title"><a href="https://jonrahman.github.io/Prework-study-guide/">Prework
+                                FrontEnd Developer</a></h3>
                     </div>
                 </div>
             </div>
@@ -121,19 +113,19 @@
             <div class="card">
                 <img src="Images/horiseon.png" style="height:60%" class="mx-auto img-fluid" alt="Refactor - horiseon image">
                 <div class="card-body">
-                    <h5 class="card-title"><a href="https://jonrahman.github.io/Horiseon/">Code Refactor</a></h5>
+                    <h3 class="card-title"><a href="https://jonrahman.github.io/Horiseon/">Code Refactor</a></h3>
                 </div>
             </div>
             <div class="card">
                 <img src="Images/my portfolio.png" style="height:60%" class="mx-auto img-fluid" alt="Responsive - My portfolio image">
                 <div class="card-body">
-                    <h5 class="card-title"><a href="https://jonrahman.github.io/JanyalomRahmanPortfolio">Responsive Portfolio</a></h5>
+                    <h3 class="card-title"><a href="https://jonrahman.github.io/JanyalomRahmanPortfolio">Responsive Portfolio</a></h3>
                 </div>
             </div>
             <div class="card">
                 <img src="Images/snokerling.jpg" style="height:60%" class="mx-auto img-fluid" alt="Bootstrap portfolio image">
                 <div class="card-body">
-                    <h5 class="card-title"><a href="https://jonrahman.github.io/JR-Bootstrap-Portfolio/">Bootstrap Portfolio</a></h5>
+                    <h3 class="card-title"><a href="https://jonrahman.github.io/JR-Bootstrap-Portfolio/">Bootstrap Portfolio</a></h3>
                 </div>
             </div>
         </div>
@@ -145,21 +137,28 @@
             <div class="row" id="skillsbox">
                 <h2>Skills</h2>
                 <p class="text-center">By the time I graduate, I will be able to:</p>
-                
+
                 <div class="row">
                     <div class="col-md-6">
                         <ul class="list-group">
-                            <li class="list-group-item">Apply fundamental knowledge of web development with HTML, CSS, and JavaScript.</li>
-                            <li class="list-group-item">Create visually-compelling page layouts using UX design principles.</li>
-                            <li class="list-group-item">Maintain code versioning and work across distributed teams using Git and GitHub.</li>
-                            <li class="list-group-item">Manipulate page information and create interactivity using jQuery and React.</li>
-                            <li class="list-group-item">Retrieve data from servers using RESTful-compliant network requests.</li>
+                            <li class="list-group-item">Apply fundamental knowledge of web development with HTML, CSS,
+                                and JavaScript.</li>
+                            <li class="list-group-item">Create visually-compelling page layouts using UX design
+                                principles.</li>
+                            <li class="list-group-item">Maintain code versioning and work across distributed teams using
+                                Git and GitHub.</li>
+                            <li class="list-group-item">Manipulate page information and create interactivity using
+                                jQuery and React.</li>
+                            <li class="list-group-item">Retrieve data from servers using RESTful-compliant network
+                                requests.</li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul class="list-group">
-                            <li class="list-group-item">Organize code, having mastered foundations of object-oriented and functional programming paradigms.</li>
-                            <li class="list-group-item">Build modern web applications with industry-standard frameworks like Node.js and React.</li>
+                            <li class="list-group-item">Organize code, having mastered foundations of object-oriented
+                                and functional programming paradigms.</li>
+                            <li class="list-group-item">Build modern web applications with industry-standard frameworks
+                                like Node.js and React.</li>
                             <li class="list-group-item">Deploy web-based applications using Netlify.</li>
                             <li class="list-group-item">Prepare a portfolio of front-end development work.</li>
                             <li class="list-group-item">To be a better FrontEnd Web Developer.</li>
@@ -169,7 +168,7 @@
             </div>
         </div>
     </section>
-    
+
 
     <!-- footer section --> <!-- contact-me section -->
     <footer>
@@ -179,32 +178,31 @@
             <div class="container text-center">
                 <div class="row flex-column flex-md-row justify-content-center">
                     <div class="col">
-                        <a href="tel:+447875428055" class="btn btn-primary btn-responsive" role="button"
-                            title="Call-me">
+                        <a href="tel:+447875428055" class="btn btn-dark btn-responsive" role="button" title="Call-me">
                             <i class="fas fa-phone"></i> Call
                         </a>
                     </div>
                     <div class="col">
-                        <a href="mailto:Jonrahman90@gmail.com" class="btn btn-primary btn-responsive" role="button"
+                        <a href="mailto:Jonrahman90@gmail.com" class="btn btn-dark btn-responsive" role="button"
                             title="Email-me">
                             <i class="fas fa-envelope"></i> Email
                         </a>
                     </div>
                     <div class="col">
                         <a href="https://github.com/JonRahman/JanyalomRahmanPortfolio"
-                            class="btn btn-primary btn-responsive" role="button" title="GitHub">
+                            class="btn btn-dark btn-responsive" role="button" title="GitHub">
                             <i class="fab fa-github"></i> GitHub
                         </a>
                     </div>
                     <div class="col">
-                        <a href="https://www.linkedin.com/in/jonrahman" class="btn btn-primary btn-responsive"
+                        <a href="https://www.linkedin.com/in/jonrahman" class="btn btn-dark btn-responsive"
                             role="button" title="LinkedIn">
                             <i class="fab fa-linkedin"></i> LinkedIn
                         </a>
                     </div>
                     <div class="col">
                         <a href="https://instagram.com/abu_idrees_jr?igshid=OGQ5ZDc2ODk2ZA=="
-                            class="btn btn-primary btn-responsive" role="button" title="Instagram">
+                            class="btn btn-dark btn-responsive" role="button" title="Instagram">
                             <i class="fab fa-instagram"></i> Instagram
                         </a>
                     </div>
