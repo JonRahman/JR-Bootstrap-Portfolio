@@ -36,3 +36,10 @@ footer h3 {
     margin: 10px auto; /* Center buttons vertically and add spacing between them */
 }
 
+/* Media query for stacking the lists on smaller screens */
+@media (max-width: 768px) {
+    .skills-list {
+        display: flex;
+        flex-direction: column;
+    }
+}
