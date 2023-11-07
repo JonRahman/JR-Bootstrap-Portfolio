@@ -19,6 +19,10 @@ This project is a web-based portfolio built using the Bootstrap CSS Framework. T
 
 ## Screenshots
 (screenshots of my bootstrap portfolio)
+![bootstrap2](https://github.com/JonRahman/JR-Bootstrap-Portfolio/assets/145556007/97fdd5f9-6f50-455b-bf62-e6662d6cf6f3)
+![bootstrap1](https://github.com/JonRahman/JR-Bootstrap-Portfolio/assets/145556007/dea1e706-d9bb-4f5b-bfbc-e65ec824557c)
+![bootstrap3](https://github.com/JonRahman/JR-Bootstrap-Portfolio/assets/145556007/080fffda-c6d4-468d-90d1-69d73806b794)
+
 
 ## Technologies Used
 - HTML
