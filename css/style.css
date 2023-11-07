@@ -37,6 +37,10 @@ footer h3 {
     margin: 10px auto; /* Center buttons vertically and add spacing between them */
 }
 
+.btn-responsive:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
+}
+
 #workbox, #skillsbox, #contactbox {
     margin-top: 20px;
 }
