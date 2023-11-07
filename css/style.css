@@ -14,6 +14,15 @@ h2, h3 {
     text-align: center;
     color: #2c3e50;
 }
+
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+}
   
 footer h3 {
       font-size: x-large;
@@ -38,7 +47,7 @@ footer h3 {
 }
 
 .btn-responsive:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
+    box-shadow: 0 0 10px blueviolet; /* Adjust the values as needed */
 }
 
 #workbox, #skillsbox, #contactbox {
